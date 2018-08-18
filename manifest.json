@@ -1,0 +1,10 @@
+{
+    "name": "#Greenr",
+    "version": "1.0",
+    "description": "A Chrome extension to help people shop greener!",
+    "background": { /* The extension is now aware that it includes a non-persistent background script and will scan the registered file for important events it needs to listen for. */
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+}
